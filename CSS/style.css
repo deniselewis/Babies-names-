@@ -1,7 +1,13 @@
+body {
+  background-color: #fcf9f0;
+}
+
 h1{
-  color: purple;
+  color: rgb(101, 198, 255);
+  font-family:Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   margin-top: 40px;
+  font-weight: bold;
 }
 
 #name{
@@ -9,40 +15,48 @@ h1{
   color: blueviolet;
 }
 
-
-
-.button-1 {
-background-color: #EA4C89;
-border-radius: 8px;
-border-style: none;
-box-sizing: border-box;
-color: #FFFFFF;
-cursor: pointer;
-display: inline-block;
-font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 14px;
-font-weight: 500;
-height: 40px;
-line-height: 20px;
-list-style: none;
-margin: 0;
-outline: none;
-padding: 10px 16px;
-position: relative;
-text-align: center;
-text-decoration: none;
-transition: color 100ms;
-vertical-align: baseline;
-user-select: none;
--webkit-user-select: none;
-touch-action: manipulation;
-margin-left: 43%;
-margin-top: 20px;
-margin-bottom: 40px;
+.dropbtn {
+  padding: 10px 60px 10px;
+  font-size: 25px;
+  background-color: #ef87af;
+  border-radius: 10px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 
 }
 
-.button-1:hover,
-.button-1:focus {
-background-color: #F082AC;
+.dropdown {
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 275px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #a5d8a7;}
+
+
