@@ -3,7 +3,7 @@
 
 
 
-Generator to display baby names!
+Generator named with my team to display baby names!
 
 ## Table of Contents
 
