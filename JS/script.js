@@ -27,6 +27,7 @@ function generator(event) {
     genderEl[i].addEventListener('click',generator)
    }
    
+
     
     
 

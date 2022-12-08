@@ -1,9 +1,9 @@
 body {
-  background-color: #fcf9f0;
+  background-color: #faf78a;
 }
 
 h1{
-  color: rgb(101, 198, 255);
+  color: rgb(61, 24, 155);
   font-family:Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   margin-top: 40px;
@@ -59,4 +59,12 @@ h1{
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: #a5d8a7;}
 
+
+.baby{
+  display: block;
+  width: 30%;
+  height: 20%;
+  border-radius: 20%;
+  padding: 40px;
+}
 
