@@ -5,6 +5,10 @@
 
 Generator named with my team to display baby names!
 
+### Collaborators
+
+Michele Baldwin, Aubrie McClendon, Felipe Bajaras Rangel
+
 ## Table of Contents
 
 - [Description](#description)
